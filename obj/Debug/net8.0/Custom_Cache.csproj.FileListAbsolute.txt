@@ -1,0 +1,15 @@
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\bin\Debug\net8.0\Custom_Cache.exe
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\bin\Debug\net8.0\Custom_Cache.deps.json
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\bin\Debug\net8.0\Custom_Cache.runtimeconfig.json
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\bin\Debug\net8.0\Custom_Cache.dll
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\bin\Debug\net8.0\Custom_Cache.pdb
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\obj\Debug\net8.0\Custom_Cache.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\obj\Debug\net8.0\Custom_Cache.AssemblyInfoInputs.cache
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\obj\Debug\net8.0\Custom_Cache.AssemblyInfo.cs
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\obj\Debug\net8.0\Custom_Cache.csproj.CoreCompileInputs.cache
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\obj\Debug\net8.0\Custom_Cache.sourcelink.json
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\obj\Debug\net8.0\Custom_Cache.dll
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\obj\Debug\net8.0\refint\Custom_Cache.dll
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\obj\Debug\net8.0\Custom_Cache.pdb
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\obj\Debug\net8.0\Custom_Cache.genruntimeconfig.cache
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Custom_Cache\obj\Debug\net8.0\ref\Custom_Cache.dll
