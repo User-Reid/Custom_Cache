@@ -1,4 +1,4 @@
-﻿var dataDownloader = new CachingDataDownloader(new SlowDataDownloader());
+﻿var dataDownloader = new CachingDataDownloader(new PrintingDataDownloader(new SlowDataDownloader()));
 
 System.Console.WriteLine(dataDownloader.DownloadData("id1"));
 System.Console.WriteLine(dataDownloader.DownloadData("id2"));
@@ -25,7 +25,6 @@ public class Cache<TKey, TData>
 
 public class SlowDataDownloader : IDataDownloader
 {
-
   public string DownloadData(string resouceId)
   {
     // let's imagine this method downloads real data,
@@ -37,9 +36,8 @@ public class SlowDataDownloader : IDataDownloader
 
 public class CachingDataDownloader : IDataDownloader
 {
-  private readonly IDataDownloader _dataDownloader;
   private readonly Cache<string, string> _cache = new();
-
+  private readonly IDataDownloader _dataDownloader;
   public CachingDataDownloader(IDataDownloader dataDownloader)
   {
     _dataDownloader = dataDownloader;
@@ -48,6 +46,22 @@ public class CachingDataDownloader : IDataDownloader
   public string DownloadData(string resouceId)
   {
     return _cache.Get(resouceId, _dataDownloader.DownloadData);
+  }
+}
+
+public class PrintingDataDownloader : IDataDownloader
+{
+  private readonly IDataDownloader _dataDownloader;
+  public PrintingDataDownloader(IDataDownloader dataDownloader)
+  {
+    _dataDownloader = dataDownloader;
+  }
+
+  public string DownloadData(string resouceId)
+  {
+    var data = _dataDownloader.DownloadData(resouceId);
+    System.Console.WriteLine("Data is ready!");
+    return data;
   }
 }
 
